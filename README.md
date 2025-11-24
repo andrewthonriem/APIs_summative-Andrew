@@ -1,4 +1,4 @@
-# JobLINK
+# JobLink
 
 JobLINK is a web application designed to connect employers with job seekers. Employers can post available job vacancies, while job seekers can search, filter, and apply for jobs. The application incorporates the use of the JSearch API from RapidAPI to provide real-time job data and is deployed on a load-balanced infrastructure for high availability.
 
