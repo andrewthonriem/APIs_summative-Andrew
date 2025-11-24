@@ -198,9 +198,10 @@ Missing editors on Ubuntu	Installed nano and vim
 **Duration:** 2 minutes
 Shows searching, filtering, and applying for jobs
 
+## Submission Notes ##
+
 Video URL: [https://youtu.be/kSePS6QEG5Y?si=EVX5NzLt4fTO8NdC]
 
-## Submission Notes ##
 **Repository URL:** [https://github.com/andrewthonriem/APIs_summative-Andrew.git]
 
 **App Link:**[http://andrewonline.tech/]
