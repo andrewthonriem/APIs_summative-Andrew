@@ -200,5 +200,6 @@ Shows searching, filtering, and applying for jobs
 
 Video URL: [https://youtu.be/kSePS6QEG5Y?si=EVX5NzLt4fTO8NdC]
 
-Submission Notes
-Repository URL: [https://github.com/andrewthonriem/APIs_summative-Andrew.git]
+## Submission Notes ##
+**Repository URL:** [https://github.com/andrewthonriem/APIs_summative-Andrew.git]
+**App Link:**[http://andrewonline.tech/]
