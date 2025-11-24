@@ -168,42 +168,37 @@ frontend http_front
     default_backend http_back
 Test via the load balancer public IP; requests are automatically distributed between servers.
 
-Usage
-Employer: Login → Post jobs → Manage listings → View applications
-Job Seeker: Browse/search jobs → Filter/sort → Apply → Confirmation
+## Usage
+**Employer:** Login → Post jobs → Manage listings → View applications
+**Job Seeker:** Browse/search jobs → Filter/sort → Apply → Confirmation
 
-API Integration: Job categories and data retrieved in real time from JSearch.
+**API Integration:** Job categories and data retrieved in real time from JSearch.
 
-Error Handling
+**Error Handling**
 Handles API failures gracefully with messages to the user.
 
 Input validation prevents invalid submissions.
 
 Logs errors during deployment or API downtime.
 
-Challenges and Solutions
-Challenge	Solution
+## Challenges and Solutions
+**Challenge	Solution**
 Nginx conflicts on LB server	Disabled Nginx; HAProxy manages port 80
 Using public IPs in HAProxy backend	Replaced with private IPs of web servers
 Missing editors on Ubuntu	Installed nano and vim
 
-Credits
-JSearch API: RapidAPI Marketplace
+**Credits**
+**JSearch API:** RapidAPI Marketplace
 
-Libraries: Node.js, Express, Nginx, HAProxy
+**Libraries:** Node.js, Express, Nginx, HAProxy
 
-Resources: ALX Web Infrastructure and API module guides
+**Resources:** ALX Web Infrastructure and API module guides
 
-Demo Video
-Duration: 2 minutes
-
-Demonstrates local usage and access via load balancer
-
+**Demo Video**
+**Duration:** 2 minutes
 Shows searching, filtering, and applying for jobs
 
-Video URL: [Insert YouTube/Vimeo link here]
+Video URL: [https://youtu.be/kSePS6QEG5Y?si=EVX5NzLt4fTO8NdC]
 
 Submission Notes
 Repository URL: [Insert GitHub repo link here]
-
-.gitignore included to prevent exposure of sensitive files
