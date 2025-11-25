@@ -899,12 +899,15 @@
         </div>
     </div>
 
+    <!-- Load configuration file -->
+    <script src="config.js"></script>
+    
     <script>
         // Global Variables
         let allJobs = [];
         let currentJobForApplication = null;
-        const API_KEY = 'be1d59bfe9msh4bbca411d3250d6p1b4772jsn4f75da32df8b';
-        const API_HOST = 'jsearch.p.rapidapi.com';
+        const API_KEY = CONFIG.API_KEY;
+        const API_HOST = CONFIG.API_HOST;
 
         // Initialize App
         document.addEventListener('DOMContentLoaded', function() {
