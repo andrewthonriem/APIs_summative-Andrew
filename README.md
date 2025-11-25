@@ -1,4 +1,4 @@
-# JobLINK
+# JobLink
 
 JobLINK is a web application designed to connect employers with job seekers. Employers can post available job vacancies, while job seekers can search, filter, and apply for jobs. The application incorporates the use of the JSearch API from RapidAPI to provide real-time job data and is deployed on a load-balanced infrastructure for high availability.
 
@@ -198,7 +198,10 @@ Missing editors on Ubuntu	Installed nano and vim
 **Duration:** 2 minutes
 Shows searching, filtering, and applying for jobs
 
+## Submission Notes ##
+
 Video URL: [https://youtu.be/kSePS6QEG5Y?si=EVX5NzLt4fTO8NdC]
 
-Submission Notes
-Repository URL: [https://github.com/andrewthonriem/APIs_summative-Andrew.git]
+**Repository URL:** [https://github.com/andrewthonriem/APIs_summative-Andrew.git]
+
+**App Link:**[http://andrewonline.tech/]
