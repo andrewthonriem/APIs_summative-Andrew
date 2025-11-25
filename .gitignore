@@ -9,7 +9,7 @@ node_modules/
 Thumbs.db
 
 # Environment files
-.env
+config.js
 
 # Local build files
 dist/
@@ -21,4 +21,3 @@ build/
 
 # Temporary files
 *.tmp
-
