@@ -108,14 +108,14 @@ fetch(`https://${CONFIG.API_HOST}/search?query=developer&page=1`, options)
 
 1. **Clone the repository:**
 
-   ```bash
-   git clone https://github.com/andrewthonriem/APIs_summative-Andrew.git
+   ```
+   git clone https://github.com/andrewthonriem/APIs_summative-Andrew.git joblink
    cd joblink
    ```
 
 2. **Set up API configuration:**
 
-   ```bash
+   ```
    # Copy the example config file
    cp config.example.js config.js
    ```
@@ -136,7 +136,7 @@ fetch(`https://${CONFIG.API_HOST}/search?query=developer&page=1`, options)
 
 5. **Run the application locally:**
 
-   ```bash
+   ```
    # Option 1: Double-click index.html in your file explorer
 
    # Option 2: Use a simple HTTP server
@@ -159,7 +159,7 @@ fetch(`https://${CONFIG.API_HOST}/search?query=developer&page=1`, options)
 
 1. **Copy project files to both web servers (web-01 and web-02):**
 
-   ```bash
+   ```
    # Transfer to web-01
    scp -i ~/.ssh/<key> -r ./joblink ubuntu@<web01-private-ip>:/var/www/joblink
 
@@ -169,7 +169,7 @@ fetch(`https://${CONFIG.API_HOST}/search?query=developer&page=1`, options)
 
 2. **Set ownership and permissions:**
 
-   ```bash
+   ```
    sudo chown -R www-data:www-data /var/www/joblink
    sudo chmod -R 755 /var/www/joblink
    ```
@@ -191,7 +191,7 @@ fetch(`https://${CONFIG.API_HOST}/search?query=developer&page=1`, options)
 
 4. **Restart Nginx on both servers:**
 
-   ```bash
+   ```
    sudo systemctl restart nginx
    ```
 
@@ -289,8 +289,7 @@ frontend http_front
   ```
   joblink/
   ├── index.html           # Main application
-  ├── config.js            # API keys (NEVER COMMIT)
-  ├── config.example.js    # Config template (safe to commit)
+  ├── config.example.js    # Config template
   ├── .gitignore          # Excludes config.js
   └── README.md           # Documentation
   ```
